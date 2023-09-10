@@ -31,9 +31,9 @@ Here is an overview of the main functions provided by JFS:
 
 ****jfs_mkdir(const char* directory_name):**** Creates a new subdirectory in the current directory.
 
-***jfs_chdir(const char* directory_name):*** Changes the current working directory. Passing NULL sets it to the root directory.
+***jfs_chdir(const char* directory_name):** Changes the current working directory. Passing NULL sets it to the root directory.
 
-***jfs_ls(char* directories[MAX_DIR_ENTRIES+1], char* files[MAX_DIR_ENTRIES+1]):*** Lists the subdirectories and files in the current directory.
+*****jfs_ls(char* directories[MAX_DIR_ENTRIES+1], char* files[MAX_DIR_ENTRIES+1]):*** Lists the subdirectories and files in the current directory.
 
 ***jfs_rmdir(const char* directory_name):*** Removes a subdirectory from the current directory.
 
