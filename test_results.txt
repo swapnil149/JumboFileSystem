@@ -1,0 +1,107 @@
+sgupta19
+
+Test cases will be forked.
+
+**********************
+*** TEST SET mkdir ***
+
+test_mkdir_1_create_directory: PASSED
+test_mkdir_2_long_dirname: PASSED
+test_mkdir_3_fill_directory: PASSED
+
+Set total tests: 3, Passed: 3, Failed: 0
+
+**********************
+*** TEST SET chdir ***
+
+test_chdir_1_simple_cd: PASSED
+test_chdir_2_cd_to_root: PASSED
+
+Set total tests: 2, Passed: 2, Failed: 0
+
+**********************
+*** TEST SET rmdir ***
+
+test_rmdir_1_mkdir_then_rmdir: PASSED
+test_rmdir_2_rm_subdir: PASSED
+test_rmdir_3_mkdir_rmdir_mkdir: PASSED
+
+Set total tests: 3, Passed: 3, Failed: 0
+
+**********************
+*** TEST SET creat ***
+
+test_creat_1_create_file: PASSED
+test_creat_2_long_filename: PASSED
+test_creat_3_fill_directory: PASSED
+
+Set total tests: 3, Passed: 3, Failed: 0
+
+***********************
+*** TEST SET remove ***
+
+test_remove_1_creat_then_remove: PASSED
+test_remove_2_creat_remove_creat: PASSED
+
+Set total tests: 2, Passed: 2, Failed: 0
+
+*****************************
+*** TEST SET write & read ***
+
+test_write_read_1_one_byte: PASSED
+test_write_read_2_big_read_buffer: PASSED
+test_write_read_3_small_read_buffer: PASSED
+test_write_read_4_binary_data: PASSED
+test_write_read_5_multiple_write_one_block: PASSED
+test_write_read_6_multiple_write_whole_blocks: PASSED
+test_write_read_7_multiple_write_partial_blocks: PASSED
+test_write_read_8_max_file_size: PASSED
+test_write_read_9_multiple_write_max_file_size: PASSED
+
+Set total tests: 9, Passed: 9, Failed: 0
+
+**********************
+*** TEST SET stat ***
+
+test_stat_1_directories: PASSED
+test_stat_2_files: PASSED
+test_stat_3_release_block: PASSED
+test_stat_4_writes: PASSED
+
+Set total tests: 4, Passed: 4, Failed: 0
+
+***********************
+*** TEST SET errors ***
+
+test_error_1_mkdir_exists: PASSED
+test_error_2_mkdir_name_too_long: PASSED
+test_error_3_mkdir_directory_full: PASSED
+test_error_4_cd_not_exists_1: PASSED
+test_error_5_cd_not_exists_2: PASSED
+test_error_6_cd_to_root_not_exists: PASSED
+test_error_7_cd_not_dir: PASSED
+test_error_8_rm_not_exists_1: PASSED
+test_error_9_rm_not_exists_2: PASSED
+test_error_10_rm_not_empty: PASSED
+test_error_11_rm_not_dir: PASSED
+test_error_12_creat_exists: PASSED
+test_error_13_creat_name_too_long: PASSED
+test_error_14_creat_directory_full: PASSED
+test_error_15_remove_not_exists_1: PASSED
+test_error_16_remove_not_exists_2: PASSED
+test_error_17_remove_is_dir: PASSED
+test_error_18_stat_not_exists: PASSED
+test_error_19_read_not_exists: PASSED
+test_error_20_read_is_dir: PASSED
+test_error_21_write_not_exists: PASSED
+test_error_22_write_is_dir: PASSED
+test_error_23_write_max_file_size: PASSED
+test_error_24_disk_full: PASSED
+
+Set total tests: 24, Passed: 24, Failed: 0
+
+****************
+Total result:
+ALL TESTS PASSED!
+
+Valgrind results are in valgrind_results.txt
