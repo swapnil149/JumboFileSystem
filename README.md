@@ -25,9 +25,9 @@ To use JFS, follow these steps:
 ## Functions
 Here is an overview of the main functions provided by JFS:
 
-**jfs_mount(const char* filename):** Initializes the file system by mounting the specified disk file.
+****jfs_mount(const char* filename):**** Initializes the file system by mounting the specified disk file.
 
-**jfs_unmount(): **Unmounts the file system and performs cleanup.
+****jfs_unmount():**** Unmounts the file system and performs cleanup.
 
 **jfs_mkdir(const char* directory_name):** Creates a new subdirectory in the current directory.
 
