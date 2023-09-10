@@ -25,24 +25,24 @@ To use JFS, follow these steps:
 ## Functions
 Here is an overview of the main functions provided by JFS:
 
-****jfs_mount(const char* filename):**** Initializes the file system by mounting the specified disk file.
+****jfs_mount(const char* filename):*** Initializes the file system by mounting the specified disk file.
 
-****jfs_unmount():**** Unmounts the file system and performs cleanup.
+***jfs_unmount():*** Unmounts the file system and performs cleanup.
 
-**jfs_mkdir(const char* directory_name):** Creates a new subdirectory in the current directory.
+***jfs_mkdir(const char* directory_name):*** Creates a new subdirectory in the current directory.
 
-**jfs_chdir(const char* directory_name):** Changes the current working directory. Passing NULL sets it to the root directory.
+***jfs_chdir(const char* directory_name):*** Changes the current working directory. Passing NULL sets it to the root directory.
 
-**jfs_ls(char* directories[MAX_DIR_ENTRIES+1], char* files[MAX_DIR_ENTRIES+1]):** Lists the subdirectories and files in the current directory.
+***jfs_ls(char* directories[MAX_DIR_ENTRIES+1], char* files[MAX_DIR_ENTRIES+1]):*** Lists the subdirectories and files in the current directory.
 
-**jfs_rmdir(const char* directory_name):** Removes a subdirectory from the current directory.
+***jfs_rmdir(const char* directory_name):*** Removes a subdirectory from the current directory.
 
-**jfs_creat(const char* file_name):** Creates an empty file.
+***jfs_creat(const char* file_name):*** Creates an empty file.
 
-**jfs_remove(const char* file_name):** Deletes a file.
+***jfs_remove(const char* file_name):*** Deletes a file.
 
-**jfs_stat(const char* name, struct stats* buf):** Retrieves information about a file or directory.
+****jfs_stat(const char* name, struct stats* buf):*** Retrieves information about a file or directory.
 
-**jfs_write(const char* file_name, const void* buf, unsigned short count):** Appends data to a file.
+****jfs_write(const char* file_name, const void* buf, unsigned short count):*** Appends data to a file.
 
-**jfs_read(const char* file_name, const void* buf, unsigned short* ptr_count):** Reads data from a file into a buffer.
+******jfs_read(const char* file_name, const void* buf, unsigned short* ptr_count):***** Reads data from a file into a buffer.
