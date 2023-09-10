@@ -29,7 +29,7 @@ Here is an overview of the main functions provided by JFS:
 
 ***jfs_unmount():*** Unmounts the file system and performs cleanup.
 
-***jfs_mkdir(const char* directory_name):*** Creates a new subdirectory in the current directory.
+****jfs_mkdir(const char* directory_name):**** Creates a new subdirectory in the current directory.
 
 ***jfs_chdir(const char* directory_name):*** Changes the current working directory. Passing NULL sets it to the root directory.
 
