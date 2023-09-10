@@ -45,4 +45,4 @@ Here is an overview of the main functions provided by JFS:
 
 ****jfs_write(const char* file_name, const void* buf, unsigned short count):*** Appends data to a file.
 
-******jfs_read(const char* file_name, const void* buf, unsigned short* ptr_count):***** Reads data from a file into a buffer.
+******jfs_read(const char* file_name, const void* buf, unsigned short* ptr_count):*** Reads data from a file into a buffer.
