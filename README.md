@@ -16,11 +16,11 @@ JFS includes the following features:
 ## Usage
 To use JFS, follow these steps:
 
-Mount the File System: Call jfs_mount with the filename of the simulated disk to prepare it for file system operations. This should be done once before using any other functions.
+1) Mount the File System: Call jfs_mount with the filename of the simulated disk to prepare it for file system operations. This should be done once before using any other functions.
 
-Interact with the File System: Use the various JFS functions to perform file system operations, such as creating directories, listing files, creating files, appending data, and more.
+2) Interact with the File System: Use the various JFS functions to perform file system operations, such as creating directories, listing files, creating files, appending data, and more.
 
-Unmount the File System: Call jfs_unmount to cleanly unmount the file system when you are finished. This should be done once after all other operations.
+3) Unmount the File System: Call jfs_unmount to cleanly unmount the file system when you are finished. This should be done once after all other operations.
 
 ## Functions
 Here is an overview of the main functions provided by JFS:
